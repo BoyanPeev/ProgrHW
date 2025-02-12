@@ -1,0 +1,3 @@
+gcc -c maths.c -o maths.o
+ar rcs libmaths.a maths.o
+gcc kompilaciq5.c -L. -lmaths -o kompilaciq5
